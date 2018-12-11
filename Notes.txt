@@ -1,0 +1,13 @@
+*_Class yazma Standartlarý_*
+1_) Bir Class içinde doðrudan assignment(atama) iþlemi yapýlmaz, eðer atama iþlemi yapýlacaksa sýnýfýn kurucusunda bu atama iþlemi yapýlýr.
+2_) Bir metod'a dörtten fazla parametre geçiliyorsa bu parametreler bir model olarak paketlenmelidir(bazý istisnai durumlar dýþýnda bu kurala uyulmalýdýr).
+
+
+
+
+
+
+
+
+
+
