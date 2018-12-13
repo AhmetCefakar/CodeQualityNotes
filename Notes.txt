@@ -1,9 +1,18 @@
+[*_Alttaki Notlar Yazýlým Yaklaþýmlarýndaki Detay Noktalarý Ýçermektedir_*]
+
 *_Class yazma Standartlarý_*
 1_) Bir Class içinde doðrudan assignment(atama) iþlemi yapýlmaz, eðer atama iþlemi yapýlacaksa sýnýfýn kurucusunda bu atama iþlemi yapýlýr.
 2_) Bir metod'a dörtten fazla parametre geçiliyorsa bu parametreler bir model olarak paketlenmelidir(bazý istisnai durumlar dýþýnda bu kurala uyulmalýdýr).
 
 
 
+
+*_UML-Class Diagrams_*
+1_) Is A Relationship(Generalization-Specialization, Inheritance-Implementation) : Kalýtým iliþkilerini gösterir. 'Inheritance, Implementation' farklý olarak 'Generalization, Specialization' olarakta isimlendirilir.
+2_) Has A Relationship(Association): Bir sýnýfýn baþka bir sýnýf içinde property olarak kullanýlma iliþkilerini gösterir.
+    'Has A' iliþkilerinin temelde "one-one, one-many, many-many" gibi üç adet türü vardýr.
+3_) Association: Bilme, Generalization-Specialization: Kalýtým iliþkileridir.
+4_) Association iliþkilerin bir ileri türleri, Aggregation ve Composition iliþkileridir.
 
 
 
