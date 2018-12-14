@@ -1,8 +1,42 @@
 [*_Alttaki Notlar Yazýlým Yaklaþýmlarýndaki Detay Noktalarý Ýçermektedir_*]
 
+
+
+*_Programing Languages_*
+0_) Programlama dilleri, program geliþtirme yaklaþýmlarýna göre farklý kategorilere ayrýlýrlar. 
+    Bu ayrým dillerin derlenme þekilleri(Compiling and Interpreting) olabilir, 
+    uygulama geliþtiriciyi makine dilinden ne düzeyde soyutladýðý olabilir, 
+    hangi tür kodlama yaklaþýmý(Procedurel, OOP vb.) kullandýðý olabilir
+    ve Imperative-Declerative yaklaþým gibi daha birçok metrik vardýr.
+    Programlama dilleri yukarada sayýlan ve sayýlmayan bir çok metriðin bazýlarýný destekler, bazýlarýný desteklemez, bazýlarýný kýsmen, bazýlarýný hibrit yapýlarla destekler.
+    Yukarýda bahsedilen yaplaþýmlarý programlama dünyasýna tam manasýyla giriþ yapmadan ve tecrübe etmeden akýlda kategorileþtirmek ve özümsemek çok zordur!
+
+
+
+
+
+
+*_Class-Object Informations_*
+0_)   Class yapýlarý felsefi olarak insanlarýn idrak ettikleri dünyayý elektronik sistemlerde anlaþýlmasý kolay þekilde modellemek için kullandýklarý yapýlardýr.
+1_)   Class-Object farký; 	
+1.1_) Class bir þablondur ve objeler bu þablondan türetilirler.
+1.2_) Class : Sadece HardDisk üzerinde(yani elektronik cihazýn depolama alanýnda yer kaplayan) bulunan yapýlardýr.
+1.3_) Object(Nesne) : Class'tan türetilen ve Ram üzerinde yer kaplayan yapýlardýr, bu nedenledir ki nesne yapýlarý için yaþayan yapýlar denir.
+
+
+
 *_Class yazma Standartlarý_*
 1_) Bir Class içinde doðrudan assignment(atama) iþlemi yapýlmaz, eðer atama iþlemi yapýlacaksa sýnýfýn kurucusunda bu atama iþlemi yapýlýr.
 2_) Bir metod'a dörtten fazla parametre geçiliyorsa bu parametreler bir model olarak paketlenmelidir(bazý istisnai durumlar dýþýnda bu kurala uyulmalýdýr).
+
+
+
+*_Behaviors(Function&Method)_*
+0_) Programlama dillerindeki yaklaþýma göre dillerdeki iþlevselliklere function(fonksiyon) ya da method(metod) denir.
+0.1_) Function(fonksiyon) : Genellikle procedurel(C, Kýsmen C++ vb.) temelli dillerde tek baþýna tanýmlanan iþlevselliklerdir.
+0.2_) Method(Metod) : OOP(Nesne yönelimli) temelli dillerde sýnýf yapýlarýnýn içerisinde tanýmlanan iþlevselliklerdir.
+0.3_) Kýsaca: Class yapýlarýnýn içinde kullanýlýnca 'Method' olarak isimlendirilir, bir Class yapýsýna baðlý olmadan kullanýlýnca 'Fonksiyon' olarak isimlendirilir.
+
 
 
 
