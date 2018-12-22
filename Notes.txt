@@ -1,6 +1,16 @@
 [*_Alttaki Notlar Yazýlým Yaklaþýmlarýndaki Detay Noktalarý Ýçermektedir_*]
 
 
+*_) Yazýlýmda en zor þey; anlama, anlatma ve iletiþimdir. Bu metimdeki notlar bu sorunlarýn çözümlerini içermektedir.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+
+
+#]*_Software Philosophy_*[#
 
 *_Programing Languages_*
 0_) Programlama dilleri, program geliþtirme yaklaþýmlarýna göre farklý kategorilere ayrýlýrlar. 
@@ -11,8 +21,19 @@
     Programlama dilleri yukarada sayýlan ve sayýlmayan bir çok metriðin bazýlarýný destekler, bazýlarýný desteklemez, bazýlarýný kýsmen, bazýlarýný hibrit yapýlarla destekler.
     Yukarýda bahsedilen yaplaþýmlarý programlama dünyasýna tam manasýyla giriþ yapmadan ve tecrübe etmeden akýlda kategorileþtirmek ve özümsemek çok zordur!
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
+
+
+
+
+
+#]*_OOP(Object Oriented Programing)_*[#
+
+*_OOP Philosophy_*
+0_) Program an interface, not an implementation(Arayüzlere programlama yap, gerçekleþtirmelere deðil)[Gerçekleþtirme: Sýnýf new'lemedir]
+0_) Depend on abstructions, not on concretions(Arayüzlere baðýmlý ol, gerçekleþtirmelere deðil)[Gerçekleþtirme: Sýnýf new'lemedir]
 
 
 
@@ -32,14 +53,20 @@
 
 
 *_Behaviors(Function&Method)_*
-0_) Programlama dillerindeki yaklaþýma göre dillerdeki iþlevselliklere function(fonksiyon) ya da method(metod) denir.
+0_)   Programlama dillerindeki yaklaþýma göre dillerdeki iþlevselliklere function(fonksiyon) ya da method(metod) denir.
 0.1_) Function(fonksiyon) : Genellikle procedurel(C, Kýsmen C++ vb.) temelli dillerde tek baþýna tanýmlanan iþlevselliklerdir.
 0.2_) Method(Metod) : OOP(Nesne yönelimli) temelli dillerde sýnýf yapýlarýnýn içerisinde tanýmlanan iþlevselliklerdir.
 0.3_) Kýsaca: Class yapýlarýnýn içinde kullanýlýnca 'Method' olarak isimlendirilir, bir Class yapýsýna baðlý olmadan kullanýlýnca 'Fonksiyon' olarak isimlendirilir.
 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
 
+
+
+
+
+#]*_Software Architectures_*[#
 
 *_UML-Class Diagrams_*
 1_) Is A Relationship(Generalization-Specialization, Inheritance-Implementation) : Kalýtým iliþkilerini gösterir. 'Inheritance, Implementation' farklý olarak 'Generalization, Specialization' olarakta isimlendirilir.
@@ -47,6 +74,18 @@
     'Has A' iliþkilerinin temelde "one-one, one-many, many-many" gibi üç adet türü vardýr.
 3_) Association: Bilme, Generalization-Specialization: Kalýtým iliþkileridir.
 4_) Association iliþkilerin bir ileri türleri, Aggregation ve Composition iliþkileridir.
+
+
+
+*_Design Patterns(Tasarým Desenleri)_*
+0_) Aslýnda Tarasým desenleri kýsaca Nesneler arasýndaki iliþkileri yönetmektir ya da birden fazla nesnenin nasýl yönetileceðidir.
+1_) Bir tasarým deseni "Name, Problem, Solution, Result" olmak üzere dört kademeden ibaretttir.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
 
 
 
