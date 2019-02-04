@@ -56,7 +56,7 @@
 
 
 *_Polymorphism_*
-0_)   OOP yaklaþýmýnda Method-Class seviyesinde olan çok biçimliliktir. 
+0_)   OOP yaklaþýmýnda Method-Class seviyesinde olan çok biçimliliktir. Polimorfizm önceden hangi metodun ya da nesnenin koþturulmasý gerektigi bilgisine sahip olmadan, kullanýlan veri tipine(data type) ya da sýnýfa(class) baðýmlý metot ya da nesne seçimi yöntemidir.
 0.1_) Method'larýn 'Virtual-Overwride' olarak kullanýlmalarý, metod'larýn çok biçimli olmalarýný saðlar.
 0.2_) 'Implementation-Inheritance' yaklaþýmý 'Upcasting' kullanýmý ile sýnýf seviyesinde çok biçimliliðin kullanýlmasýný saðlar.
 * Upcasting: Bir ata Class ya da Interface deðiþkenine kendini inherid(ya da implement) eden sýnýfýn nesnesinin atanmasý iþlemidir.
@@ -72,11 +72,17 @@
 #]*_Software Architectures_*[#
 
 *_UML-Class Diagrams_*
+0_) Class Diagrams: Class'lar arasý iliþkileri(ki bu iliþkiler 'Is A' ve 'Has A' olarak ikiye ayrýlýr) götermek için kullanýlan modelleme dili.
 1_) Is A Relationship(Generalization-Specialization, Inheritance-Implementation) : Kalýtým iliþkilerini gösterir. 'Inheritance, Implementation' farklý olarak 'Generalization, Specialization' olarakta isimlendirilir.
 2_) Has A Relationship(Association): Bir sýnýfýn baþka bir sýnýf içinde property olarak kullanýlma iliþkilerini gösterir.
     'Has A' iliþkilerinin temelde "one-one, one-many, many-many" gibi üç adet türü vardýr.
 3_) Association: Bilme, Generalization-Specialization: Kalýtým iliþkileridir.
 4_) Association iliþkilerin bir ileri türleri, Aggregation ve Composition iliþkileridir.
+
+
+*_UML-Sequence Diagrams_*
+1_) Sequence Diagrams: Object(nesne)'ler arasý etkileþimi(interaction) modellemek için kullanýlýr, nesneler arasý etkileþim motodlar üzerinden olur.
+
 
 
 
@@ -137,6 +143,7 @@ SoC prensibi için önemli iki kavramdýr. Bileþenlerin baðlýlýk derecesinin düþük 
 ** 'DI(Dependency Injection)-IOC(Inversion Of Control)-DI(Dependency Inversion)' kavramlarý bir birleriyle baðlantýlý konulardýr ve SOLID prensiplerinin 'D' harfi ile ilgilidir.
 
 
+*WSDL: Web Service Decleration Language
 
 
 
