@@ -105,15 +105,7 @@
 
 
 
-
-
-
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-
-
-
 
 
 #]*_Software Test(TDD-TFD)_*[#
@@ -130,7 +122,41 @@
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+#]*_Technical Terminologies_*[#
+
+*-MVP(Minimum Viable Product): En az ihtiyaçlar göz önünde bulundurulan üründür, bu mantýk bir çok farklý yaklaþým ile kullanýlabilir.
+
+*-WSDL: Web Service Decleration Language
+
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+#]*_ORM Technologies_*[#
+
+*-Lazy Loading    : Veritabanýndan çekilen bir kaydýn ya da kayýt listesinin iliþkili oldoðu diðer tablolardaki verilerin ilk sorguda varsayýlan olarak getirilmediði durumdur, ihtiyaca göre iliþkili verilen getirilir. Bu yöntem iliþkili kayýt sayýsý çoksa performans problemi oluþturur.
+*-Eager Loading   : Veritabanýndan çekilen bir kaydýn ya da kayýt listesinin iliþkili oldoðu diðer tablolardaki verilerin ilk sorguda belirtilenlerinin  getirildiði durumdur.
+*-Explicit Loading: Veritabanýndan çekilen bir kaydýn ya da kayýt listesinin iliþkili oldoðu diðer tablolardaki verilerin ilk sorgudansonra gerkli olanlarýnýn belirtilerek ilk çekilen entity nesnesine eklendiði durumdur.
+
+=> Kaynaklar;
+-> https://www.c-sharpcorner.com/article/eager-loading-lazy-loading-and-explicit-loading-in-entity-framework/
+-> https://www.youtube.com/watch?v=cFJiyovYwMI
+
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 _Düzenle_
+
+
 
 * SoC(Separation Of Concerns): SoC, yazýlýmdaki elemanlarýn kendilerine özel olmasýný, sorumluluklarýnýn kendilerine ait olup, baþka elemanlar ile paylaþmamasýný söyler. Yazýlým içindeki bileþenlerin bir birine baðlýlýk derecesi(coupling) ve bileþenler içerisindeki sorumluluk iliþksi(cohesion), 
 SoC prensibi için önemli iki kavramdýr. Bileþenlerin baðlýlýk derecesinin düþük olmasý ve bir bileþen içindeki sorumluluk iliþkisinin yüksek olmasý her zaman tercih edilmelidir. Yani low-coupling, high-cohesion olmazsa olmaz!
@@ -146,14 +172,9 @@ SoC prensibi için önemli iki kavramdýr. Bileþenlerin baðlýlýk derecesinin düþük 
 ** 'DI(Dependency Injection)-IOC(Inversion Of Control)-DI(Dependency Inversion)' kavramlarý bir birleriyle baðlantýlý konulardýr ve SOLID prensiplerinin 'D' harfi ile ilgilidir.
 
 
-*WSDL: Web Service Decleration Language
 
-
-
-
-
-
-
+*** Model Driven Architecture(MDA) : 
+*** Domain Driven Design(DDD)      : 
 
 
 
