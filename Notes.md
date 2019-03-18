@@ -84,10 +84,10 @@
 
 ### Data Access Layer
 1. Bu katmanda veri kaynaklarına erişim ile ilgili işlemler yapılır.
-1. ORM(Object Relation Mapping): Veritabanına erişimi sağlayan ve veritabanı tablolarının programlama tarafındaki karşılığı sınıflar ile yönetilmesini sağlayan teknolojilerdir.
-	1. Mapping: Veritabanı tablolarının programlama tarafındaki karşılığı olan sınıfları yönetmek için kullanılan(anahtar kolonu, colon adı vb. belirlemek) yönergeler.
-	1. Context(EF)-Session(Hibernate)-vb.: Veritabanı bağlantısının sağlanmasını sağlayan sınıflardır.
-1. Micro ORM: İlgili teknoloji platformunda veritabanı bağlantısı sağlayan sınıfların üzerinden veritabanı işlemlerinin ORM yapılarından daha basit yaplaşımla yapan yaklaşımlardır. ORM yaklaşımından daha hızlıdır.
+1. **ORM(Object Relation Mapping)**: Veritabanına erişimi sağlayan ve veritabanı tablolarının programlama tarafındaki karşılığı sınıflar ile yönetilmesini sağlayan teknolojilerdir.
+	1. **Mapping**: Veritabanı tablolarının programlama tarafındaki karşılığı olan sınıfları yönetmek için kullanılan(anahtar kolonu, colon adı vb. belirlemek) yönergeler.
+	1. **Context(EF)-Session(Hibernate)-vb.**: Veritabanı bağlantısının sağlanmasını sağlayan sınıflardır.
+1. **Micro ORM**: İlgili teknoloji platformunda veritabanı bağlantısı sağlayan sınıfların üzerinden veritabanı işlemlerinin ORM yapılarından daha basit yaplaşımla yapan yaklaşımlardır. ORM yaklaşımından daha hızlıdır.
 
 ## Software Test(TDD-TFD)
 
@@ -99,9 +99,9 @@
 
 ## Technical Terminologies
 
-- MVP(Minimum Viable Product): En az ihtiyaçlar göz önünde bulundurulan üründür, bu mantık bir çok farklı yaklaşım ile kullanılabilir.
+- **MVP(Minimum Viable Product)**: En az ihtiyaçlar göz önünde bulundurulan üründür, bu mantık bir çok farklı yaklaşım ile kullanılabilir.
 
-- WSDL: Web Service Decleration Language
+- **WSDL**: Web Service Decleration Language
 
 ## Technical Technologies
 
@@ -112,7 +112,7 @@
 
 ## ORM Technologies
 
-1. **Lazy Loading **  : Veritabanından çekilen bir kaydın ya da kayıt listesinin ilişkili oldoğu diğer tablolardaki verilerin ilk sorguda varsayılan olarak getirilmediği durumdur, ihtiyaca göre ilişkili verilen getirilir. Bu yöntem ilişkili kayıt sayısı çoksa performans problemi oluşturur.
+1. **Lazy Loading**  : Veritabanından çekilen bir kaydın ya da kayıt listesinin ilişkili oldoğu diğer tablolardaki verilerin ilk sorguda varsayılan olarak getirilmediği durumdur, ihtiyaca göre ilişkili verilen getirilir. Bu yöntem ilişkili kayıt sayısı çoksa performans problemi oluşturur.
 1. **Eager Loading**  : Veritabanından çekilen bir kaydın ya da kayıt listesinin ilişkili oldoğu diğer tablolardaki verilerin ilk sorguda belirtilenlerinin  getirildiği durumdur.
 1. **Explicit Loading**: Veritabanından çekilen bir kaydın ya da kayıt listesinin ilişkili oldoğu diğer tablolardaki verilerin ilk sorgudansonra gerkli olanlarının belirtilerek ilk çekilen entity nesnesine eklendiği durumdur.
 
@@ -142,4 +142,4 @@
   * '**DI**(Dependency Injection), **IOC**(Inversion Of Control), **DI**(Dependency Inversion)' kavramları bir birleriyle bağlantılı konulardır ve SOLID prensiplerinin 'D' harfi ile ilgilidir
 
 - **Model Driven Architecture(MDA)** : 
-- **Domain Driven Design(DDD) **        :  
+- **Domain Driven Design(DDD)**        :  
