@@ -1,25 +1,24 @@
 # Alttaki Notlar Yazılım Yaklaşımlarındaki Detay Noktaları İçermektedir
 
-- Yazılımda en zor şey; anlama, anlatma ve iletişimdir. Bu metimdeki notlar bu sorunların çözümlerini içermektedir
+>- Yazılımda en zor şey; anlama, anlatma ve iletişimdir. Bu metimdeki notlar bu sorunların çözümlerini içermektedir
 
 ## Software Philosophy
 
 ### Programing Languages
-- Programlama dilleri, program geliştirme yaklaşımlarına göre farklı kategorilere ayrılırlar. Bu ayrım dillerin derlenme şekilleri(Compiling and Interpreting) olabilir, uygulama geliştiriciyi makine dilinden ne düzeyde soyutladığı olabilir, hangi tür kodlama yaklaşımı(Procedurel, OOP vb.) kullandığı olabilir ve Imperative-Declerative yaklaşım gibi daha birçok metrik vardır.
-- Programlama dilleri yukarada sayılan ve sayılmayan bir çok metriğin bazılarını destekler, bazılarını desteklemez, bazılarını kısmen, bazılarını hibrit yapılarla destekler.
-- Yukarıda bahsedilen yaplaşımları programlama dünyasına tam manasıyla giriş yapmadan ve tecrübe etmeden akılda kategorileştirmek ve özümsemek çok zordur!
-
+>- Programlama dilleri, program geliştirme yaklaşımlarına göre farklı kategorilere ayrılırlar. Bu ayrım dillerin derlenme şekilleri(Compiling and Interpreting) olabilir, uygulama geliştiriciyi makine dilinden ne düzeyde soyutladığı olabilir, hangi tür kodlama yaklaşımı(Procedurel, OOP vb.) kullandığı olabilir ve Imperative-Declerative yaklaşım gibi daha birçok metrik vardır.
+>- Programlama dilleri yukarada sayılan ve sayılmayan bir çok metriğin bazılarını destekler, bazılarını desteklemez, bazılarını kısmen, bazılarını hibrit yapılarla destekler.
+>- Yukarıda bahsedilen yaplaşımları programlama dünyasına tam manasıyla giriş yapmadan ve tecrübe etmeden akılda kategorileştirmek ve özümsemek çok zordur!
+>
 ------
 
 ------
-
 
 
 ## OOP(Object Oriented Programing)
 
 ### OOP Philosophy
-- Program an interface, not an implementation(Arayüzlere programlama yap, gerçekleştirmelere değil)[Gerçekleştirme: Sınıf new'lemedir] 
--  Depend on abstructions, not on concretions(Arayüzlere bağımlı ol, gerçekleştirmelere değil)[Gerçekleştirme: Sınıf new'lemedir]
+>- Program an interface, not an implementation(Arayüzlere programlama yap, gerçekleştirmelere değil)[Gerçekleştirme: Sınıf new'lemedir] 
+>-  Depend on abstructions, not on concretions(Arayüzlere bağımlı ol, gerçekleştirmelere değil)[Gerçekleştirme: Sınıf new'lemedir]
 
 ### Class-Object Informations
 1. Class yapıları felsefi olarak insanların idrak ettikleri dünyayı elektronik sistemlerde anlaşılması kolay şekilde modellemek için kullandıkları yapılardır.
@@ -89,6 +88,8 @@
 	1. **Context(EF)-Session(Hibernate)-vb.**: Veritabanı bağlantısının sağlanmasını sağlayan sınıflardır.
 1. **Micro ORM**: İlgili teknoloji platformunda veritabanı bağlantısı sağlayan sınıfların üzerinden veritabanı işlemlerinin ORM yapılarından daha basit yaplaşımla yapan yaklaşımlardır. ORM yaklaşımından daha hızlıdır.
 
+
+
 ## Software Test(TDD-TFD)
 
 1. Mimari tasarımda "Business Layer ve UI Layer" katmanı için testlerin yapılması yeterlidir. Temel olarak yazılım testleri dört evreden oluşur, "Unit Test, Integrated Test, System Test, Application Test"
@@ -97,11 +98,15 @@
 1. System Test: Yük-Performans-stres testlerinden oluşur 
 1. Application Test: Klasik kullanıcı testleridir, Kabul Testi olarak'ta adlandırılır.
 
+
+
 ## Technical Terminologies
 
 - **MVP(Minimum Viable Product)**: En az ihtiyaçlar göz önünde bulundurulan üründür, bu mantık bir çok farklı yaklaşım ile kullanılabilir.
 
 - **WSDL**: Web Service Decleration Language
+
+
 
 ## Technical Technologies
 
@@ -109,6 +114,8 @@
 
 1. **Markdown**: Sadece yazı yazmaya odaklanmak için(renk-font-biçimlendirme yok) geliştirilen bir teknolojidir, içerikler '.md' uzantılı dosyalarda saklanır, github-gitlab gibi git servislerinde 'ReadMe' dosyaları bu format ile yazılıyor.
 1. **Markdown için editörler**: Typora(desktop)
+
+
 
 ## ORM Technologies
 
