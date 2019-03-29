@@ -2,6 +2,8 @@
 
 >- Yazılımda en zor şey; anlama, anlatma ve iletişimdir. Bu metimdeki notlar bu sorunların çözümlerini içermektedir
 
+
+
 ## Software Philosophy
 
 ### Programing Languages
@@ -14,6 +16,32 @@
 ------
 
 
+
+## Technical Terminologies
+
+- **MVP(Minimum Viable Product)**: En az ihtiyaçlar göz önünde bulundurulan üründür, bu mantık bir çok farklı yaklaşım ile kullanılabilir.
+- **WSDL**: Web Service Decleration Language
+
+------
+
+------
+
+
+
+## Technical Technologies
+
+1. **Slack**: Şirketlerde ekipler arasında haberleşmeyi sağlayan çoklu platform(web, ios, android, desctop) desteği olan döküman paylaşım ve arama gibi gelişmiş özellikleri olan bir platform. Kurulan guruplaya davetiye mantığıyla üye olunabiliyor.
+2. **Markdown**: Sadece yazı yazmaya odaklanmak için(renk-font-biçimlendirme yok) geliştirilen bir teknolojidir, içerikler '.md' uzantılı dosyalarda saklanır, github-gitlab gibi git servislerinde 'ReadMe' dosyaları bu format ile yazılıyor.
+   1. **Markdown için editörler**: Typora(desktop)
+
+
+
+------
+
+------
+
+
+
 ## OOP(Object Oriented Programing)
 
 ### OOP Philosophy
@@ -24,8 +52,8 @@
 1. Class yapıları felsefi olarak insanların idrak ettikleri dünyayı elektronik sistemlerde anlaşılması kolay şekilde modellemek için kullandıkları yapılardır.
 1. Class-Object farkı; 	
 	1. Class bir şablondur ve objeler bu şablondan türetilirler.
-	1. Class : Sadece HardDisk üzerinde(yani elektronik cihazın depolama alanında yer kaplayan) bulunan yapılardır.
-	1. Object(Nesne) : Class'tan türetilen ve Ram üzerinde yer kaplayan yapılardır, bu nedenledir ki nesne yapıları için yaşayan yapılar denir.
+	1. **Class** : Sadece HardDisk üzerinde(yani elektronik cihazın depolama alanında yer kaplayan) bulunan yapılardır.
+	1. **Object(Nesne)** : Class'tan türetilen ve Ram üzerinde yer kaplayan yapılardır, bu nedenledir ki nesne yapıları için yaşayan yapılar denir.
 
 
 ### Class yazma Standartları
@@ -90,6 +118,24 @@
 
 
 
+### Business Logic Layer
+
+Boş
+
+### Presentation Layer
+
+Boş
+
+### Service Layer
+
+Boş
+
+### User Interface Layer
+
+Boş
+
+
+
 ## Software Test(TDD-TFD)
 
 1. Mimari tasarımda "Business Layer ve UI Layer" katmanı için testlerin yapılması yeterlidir. Temel olarak yazılım testleri dört evreden oluşur, "Unit Test, Integrated Test, System Test, Application Test"
@@ -97,23 +143,6 @@
 1. Integrated Test: 
 1. System Test: Yük-Performans-stres testlerinden oluşur 
 1. Application Test: Klasik kullanıcı testleridir, Kabul Testi olarak'ta adlandırılır.
-
-
-
-## Technical Terminologies
-
-- **MVP(Minimum Viable Product)**: En az ihtiyaçlar göz önünde bulundurulan üründür, bu mantık bir çok farklı yaklaşım ile kullanılabilir.
-
-- **WSDL**: Web Service Decleration Language
-
-
-
-## Technical Technologies
-
-1. **Slack**: Şirketlerde ekipler arasında haberleşmeyi sağlayan çoklu platform(web, ios, android, desctop) desteği olan döküman paylaşım ve arama gibi gelişmiş özellikleri olan bir platform. Kurulan guruplaya davetiye mantığıyla üye olunabiliyor.
-
-1. **Markdown**: Sadece yazı yazmaya odaklanmak için(renk-font-biçimlendirme yok) geliştirilen bir teknolojidir, içerikler '.md' uzantılı dosyalarda saklanır, github-gitlab gibi git servislerinde 'ReadMe' dosyaları bu format ile yazılıyor.
-1. **Markdown için editörler**: Typora(desktop)
 
 
 
@@ -126,6 +155,28 @@
  #### Kaynaklar;
 - https://www.c-sharpcorner.com/article/eager-loading-lazy-loading-and-explicit-loading-in-entity-framework/
 - https://www.youtube.com/watch?v=cFJiyovYwM
+
+------
+
+------
+
+
+
+## Araştır
+
+
+
+### Security
+
+**Cross-site scripting attacks**:
+
+**SQL injection attacks**:
+
+**Cross-Site Request Forgery (CSRF)**:
+
+**Open redirect attacks**:
+
+
 
 ------
 
