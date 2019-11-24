@@ -86,7 +86,7 @@
 1. **Is A Relationship(Generalization-Specialization, Inheritance-Implementation)** : Kalıtım ilişkilerini gösterir. 'Inheritance, Implementation' farklı olarak 'Generalization, Specialization' olarakta isimlendirilir.
 1. **Has A Relationship(Association)**: Bir sınıfın başka bir sınıf içinde property olarak kullanılma ilişkilerini gösterir. "Has A" ilişkilerinin temelde "one-one, one-many, many-many" gibi üç adet türü vardır.
 1. **Association**: Bilme, Generalization-Specialization: Kalıtım ilişkileridir.
-1. Association ilişkilerin bir ileri türleri, Aggregation ve Composition ilişkileridir.
+1. **Association** ilişkilerin bir ileri türleri, **Aggregation** ve **Composition** ilişkileridir.
 
 
 
